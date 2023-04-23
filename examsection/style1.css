@@ -5,11 +5,18 @@
 }
     .sidebar{
 		position:fixed;
-		width:250px;
+		
 		height:100%;
-		left:0px;
+		width:250px; 
+		
+		
 		background:#085078;
-	}
+	} 
+	.sidebar .text{ 
+	color:pink; 
+	font-family:'Varela Round', sans-serif;
+	font-size:30px;
+	} 
 	.sidebar .text a{
 		color:white;
 		font-size:25px;
@@ -49,7 +56,20 @@
 	#heading h1{
 		font-size:60px;
 	}
+	button{ 
 	
+	border:none; 
+	font-family:'Varela Round', sans-serif;
+	font-size:20px;
+	color:white;
+	width:70px;
+	}
+	.b1{
+		background-color:green;
+	}
+	.b2{
+		background-color:red;
+	}
 	
 		
 	
